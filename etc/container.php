@@ -22,11 +22,6 @@ $container['view'] = function ($container)
     return $view;
 };
 
-$container['db'] = function($container)
-{
-    return new FakeDatabase();
-};
-
 $container['data'] = function($container)
 {
     return new \App\Lib\Data(__ROOT__."etc/data");
