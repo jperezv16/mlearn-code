@@ -1,0 +1,20 @@
+{
+	"12345" : {
+		"firstname" : "Albert",
+		"lastname" : "Foret",
+		"username" : "aforest",
+		"password" : "$2y$10$zj4xqlitLgov5R9PJyxbn.CIWkj9wOwXHokqTNprq5gpZ1JmLQuY2"
+ 	},
+ 	"45367" : {
+		"firstname" : "Maxime",
+		"lastname" : "Lepine",
+		"username" : "mlepine",
+		"password" : "$2y$10$LwHns08oC2BQCAKTKoq17..XlCiBbIpvR.e0ehEGW/PAvOvm5FTAS"
+ 	},
+ 	"18456" : {
+		"firstname" : "Annie-Claude",
+		"lastname" : "Dionne",
+		"username" : "acdionne",
+		"password" : "$2y$10$Hu5bmR.dwa95WuqnUzmgsOt2w0vXzGZvhvmAZZurgp1w8XA8UgsM."
+ 	}
+}

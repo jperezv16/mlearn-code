@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+	<h1>Welcome Page</h1>
+
+	<b>Global integration</b><br>
+	<ul>
+		<li>User interface sould be responsive</li>
+		<li>All front-end library are allowed</li>
+  	</ul>
+
+	<b>Not Logged in</b><br>
+	<ul>
+		<li>This page should have a small menu to navigate</li>
+		<li>All user's password are 123456</li>
+  	</ul>
+
+	<b>Logged in</b><br>
+	<ul>
+		<li>This page should redirect to /dashboard</li>
+  	</ul>
+
+  	<b>Users</b>
+
+  	<ul>
+		{% for user in users %}
+	        <li>{{ user.firstname }} {{ user.lastname }}</li>
+	    {% endfor %}
+  	</ul>
+
+  	<a href="/login">Login</a>
+  	<a href="/dashboard">Dashboard</a>
+	
+</body> 
+</html> 
