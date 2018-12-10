@@ -14,7 +14,4 @@ Installation
 Description
 ---
 - Once the step step 1 to 5 are completed, you should be able to access the home page should with http://localhost:8000 - Follow the information given within pages to complete the micro site
-
-For other information
----
-alain.pitre@multilearning.com
+- For other information, please contact: alain.pitre@multilearning.com
