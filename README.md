@@ -1,5 +1,3 @@
-# MLG Code Ex
-
 System Requirements
 ---
 1. PHP 5.5 or newer
