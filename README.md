@@ -8,5 +8,11 @@ System Requirements
 
 Installation
 ---
-1. cd /path/to/your/mlg-code-ex
-2. composer install
+4. cd /path/to/your/mlg-code-ex
+5. composer install
+
+Description
+---
+6. Complete step 1 to 5
+7. Start your PHP web server at /path/to/your/mlg-code-ex
+8. The home page should indicate you the next steps to follow
