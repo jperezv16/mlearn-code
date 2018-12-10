@@ -2,7 +2,27 @@
 
 define("__ROOT__", $_SERVER['DOCUMENT_ROOT']."/");
 
-require __ROOT__.'vendor/autoload.php';
+$autoload = __ROOT__.'vendor/autoload.php';
+
+if (!file_exists($autoload)) {
+
+	echo "
+			<b>System Requirements</b><br>
+			Web server with<br>
+			PHP 5.5 or newer<br>
+			Composer - Don’t have Composer? It’s easy to install by following the instructions on their <a href='https://getcomposer.org/download/' target='_blank'>download</a> page.
+			<br>
+			<br>
+			<b>Installation</b><br>
+			1. cd /path/to/your/mlg-code-ex<br>
+			2. composer install
+
+		";
+
+		exit;
+}
+
+require $autoload;
 
 error_reporting(E_ALL);
 
