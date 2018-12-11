@@ -7,14 +7,14 @@ $autoload = __ROOT__.'vendor/autoload.php';
 if (!file_exists($autoload)) {
 	echo "
 		<b>System Requirements</b><br>
-		Web server with<br>
-		PHP 5.5 or newer<br>
-		Composer - Don’t have Composer? It’s easy to install by following the instructions on their <a href='https://getcomposer.org/download/' target='_blank'>download</a> page.
+		1. PHP 5.5 or newer<br>
+		2. Composer - Don’t have Composer? It’s easy to install by following the instructions on their <a href='https://getcomposer.org/download/' target='_blank'>download</a> page.
 		<br>
 		<br>
 		<b>Installation</b><br>
-		1. cd /path/to/your/mlg-code-ex<br>
-		2. composer install
+		3. cd /path/to/your/mlg-code-ex<br>
+		4. composer install<br>
+		5. php -S localhost:8000
 	";
 	exit;
 }
