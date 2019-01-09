@@ -5,18 +5,23 @@ namespace App\Controller;
 use \Slim\Http\Request;
 use \Slim\Http\Response;
 use \Slim\Views\Twig;
-use \App\Lib\Auth\Auth;
-use \App\Lib\Auth\AuthUser;
 
 class LoginPage extends Page
 {
     public function validate(Request $request, Response $response, array $args)
     {
-        $data = [
-            'error' => "authentification_error"
-        ];
+        $username = $request->getParam('username', '');
 
-        return $this->view->render($response, 'login.twig', $data);
+        $password = $request->getParam('password', '');
+
+        $user = $this->loadUser($username);
+
+        if ($user != null && $user->passwordVerify($password)) {
+            $this->data->save('session', ['userId' => $user->getId()]);
+            return $response->withRedirect("/dashboard?login=success");
+        }
+
+        return $response->withRedirect("/login?state=error");
     }
 
     public function form(Request $request, Response $response, array $args) 

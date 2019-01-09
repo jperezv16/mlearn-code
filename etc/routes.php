@@ -18,7 +18,7 @@ $app->get('/login', function(Request $request, Response $response, array $args) 
 	return $controller->form($request, $response, $args);
 });
 
-$app->post('/login', function(Request $request, Response $response, array $args) use ($container) {
+$app->post('/login/validate', function(Request $request, Response $response, array $args) use ($container) {
 	$controller = new \App\Controller\LoginPage($container['data'], $container['view']);
 	return $controller->validate($request, $response, $args);
 });

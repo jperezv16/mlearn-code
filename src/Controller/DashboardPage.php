@@ -11,6 +11,8 @@ class DashboardPage extends Page
 {
     public function notes(Request $request, Response $response, array $args) 
     {
+    	var_dump($this->user); exit;
+
         $data = [
             'notes' => $this->data->get('notes')
         ];
