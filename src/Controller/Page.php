@@ -17,11 +17,18 @@ class Page
         $this->data = $data;
 		$this->view = $view;
 
-		$session = $this->data->get('session');
+		$sessionUserId = isset($_SESSION['user_id']) ? (int)$_SESSION['user_id'] : 0;
 
-		if (isset($session['userId'])) {
-			$this->user = $this->loadUser($session['userId']);
+		if ($sessionUserId > 0) {
+			$this->user = $this->loadUser($sessionUserId);
 		}
+	}
+
+	protected function init()
+	{
+		return [
+			'user' => $this->user
+		];
 	}
 
 	public function loadUser($userNameOrUserId)

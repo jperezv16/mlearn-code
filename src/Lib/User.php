@@ -42,10 +42,10 @@ class User
 
     public function getUsername()
     {
-        return $this->lastname;
+        return $this->username;
     }
 
-    public function getFirtsname()
+    public function getFirstname()
     {
         return $this->firstname;
     }

@@ -1,32 +1,38 @@
-{
-	"0" : {
-		"userId" : "12345",
-		"text" : "Hi! this is my note #1",
-		"date" : "2018-12-01 13:45:01"
-	},
-	"1" : {
-		"userId" : "12345",
-		"text" : "Hi! this is my note #2",
-		"date" : "2018-08-15 18:55:22"
-	},
-	"2" : {
-		"userId" : "45367",
-		"text" : "Hi! this is my note #1",
-		"date" : "2018-12-01 13:45:01"
-	},
-	"3" : {
-		"userId" : "45367",
-		"text" : "Hi! this is my note #2",
-		"date" : "2018-09-01 16:33:18"
-	},
-	"4" : {
-		"userId" : "18456",
-		"text" : "Hi! this is my note #1",
-		"date" : "2018-10-19 11:21:12"
-	},
-	"5" : {
-		"userId" : "18456",
-		"text" : "Hi! this is my note #2",
-		"date" : "2018-11-21 17:43:23"
-	}
-}
+[
+    {
+        "id": 46794,
+        "userId": 12345,
+        "text": "Hi! this is my note #1",
+        "date": "2018-08-15 18:55:22"
+    },
+    {
+        "id": 3333,
+        "userId": 12345,
+        "text": "Hi! this is my note #2",
+        "date": "2018-08-15 18:55:22"
+    },
+    {
+        "id": 4567,
+        "userId": 45367,
+        "text": "Hi! this is my note #1",
+        "date": "2018-12-01 13:45:01"
+    },
+    {
+        "id": 3345,
+        "userId": 45367,
+        "text": "Hi! this is my note #2",
+        "date": "2018-09-01 16:33:18"
+    },
+    {
+        "id": 2345,
+        "userId": "18456",
+        "text": "Hi! this is my note #1",
+        "date": "2018-10-19 11:21:12"
+    },
+    {
+        "id": 43466,
+        "userId": "18456",
+        "text": "Hi! this is my note #2",
+        "date": "2018-11-21 17:43:23"
+    }
+]

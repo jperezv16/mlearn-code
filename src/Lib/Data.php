@@ -20,7 +20,7 @@ class Data
 
     public function save($key, array $data)
     {
-        $json = json_encode($data);
+        $json = json_encode($data, JSON_PRETTY_PRINT);
 
         $file = $this->folder."/{$key}.json";
 

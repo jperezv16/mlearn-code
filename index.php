@@ -29,6 +29,10 @@ $settings = [
     'displayErrorDetails' => true
 ];
 
+if (empty($_SESSION)) {
+    session_start();
+}
+
 $app = new \Slim\App(["settings" => $settings]);
 
 require __ROOT__.'etc/container.php';
