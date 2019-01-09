@@ -16,7 +16,7 @@
 				</div>
 			</td>
 		</tr>
-	</table>
+	</table><br>
 	<div>
 		<textarea rows="4" cols="50" v-model="text"></textarea>
 		<br>
