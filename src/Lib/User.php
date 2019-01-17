@@ -9,6 +9,7 @@ class User
     private $lastname = "";
     private $username = "";
     private $password = "";
+    private $description = "";
 
     public function setId($id)
     {
@@ -18,6 +19,11 @@ class User
     public function setFirstname($firstname)
     {
         $this->firstname = $firstname;
+    }
+
+    public function setDescription($description)
+    {
+        $this->description = $description;
     }
 
     public function setLastname($lastname)
@@ -33,6 +39,11 @@ class User
     public function getLastname()
     {
         return $this->lastname;
+    }
+
+    public function getDescription()
+    {
+        return $this->description;
     }
 
     public function getId()

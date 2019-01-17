@@ -9,6 +9,13 @@
 
 	<h1>Welcome Page</h1>
 
+	{% if user == null %}
+	    <a href="/login">Login</a>
+	{% else %}
+		<a href="/dashboard">Dashboard</a>
+	  	<a href="/logout">Logout</a>
+	{% endif %}
+
 	<p>
 		This small project use Slim Framework version 3<br>
 		<a href="https://www.slimframework.com/docs/v3/start/installation.html" target="_blank">https://www.slimframework.com/docs/v3/start/installation.html</a>
@@ -28,22 +35,20 @@
 
   	<b>Users</b>
 
-  	<p class="ps">* Highlight the current user logged in (use twig dump() to get the templates variables)</p>
+  	<p class="ps">
+  		- Highlight the current user logged in (use twig dump() to get the templates variables).<br>
+  		- Here we would like to see a list of user on tree column and responsive.
+  		- Exemple: <a href="https://getbootstrap.com/docs/4.2/examples/album/" target="_blank">https://getbootstrap.com/docs/4.2/examples/album/</a>
+  	</p>
 
   	<ul>
 		{% for user in users %}
 	        <li>
-	        	{{ user.getFirstname() }} {{ user.getLastname() }} / username: {{ user.getUsername() }}
+	        	<b>{{ user.getFirstname() }} {{ user.getLastname() }} / username: {{ user.getUsername() }}</b><br>
+	        	<small>{{ user.getDescription() }}</small>
 	       	</li>
 	    {% endfor %}
   	</ul>
-	
-  	{% if user == null %}
-	    <a href="/login">Login</a>
-	{% else %}
-		<a href="/dashboard">Dashboard</a>
-	  	<a href="/logout">Logout</a>
-	{% endif %}
-  		
+	  		
 </body> 
 </html> 

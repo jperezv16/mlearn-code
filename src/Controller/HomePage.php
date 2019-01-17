@@ -28,6 +28,7 @@ class HomePage extends Page
 
 			$user->setId($id);
 			$user->setUsername($data['username']);
+			$user->setDescription($data['description']);
 			$user->setFirstname($data['firstname']);
 			$user->setLastname($data['lastname']);
 			$user->setPassword($data['password']);

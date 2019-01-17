@@ -2,19 +2,71 @@
 	"12345" : {
 		"firstname" : "Albert",
 		"lastname" : "Foret",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
 		"username" : "aforest",
 		"password" : "$2y$10$zj4xqlitLgov5R9PJyxbn.CIWkj9wOwXHokqTNprq5gpZ1JmLQuY2"
  	},
  	"45367" : {
 		"firstname" : "Maxime",
 		"lastname" : "Lepine",
+		"description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
 		"username" : "mlepine",
 		"password" : "$2y$10$LwHns08oC2BQCAKTKoq17..XlCiBbIpvR.e0ehEGW/PAvOvm5FTAS"
  	},
  	"18456" : {
 		"firstname" : "Annie-Claude",
 		"lastname" : "Dionne",
+		"description" : "Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
 		"username" : "acdionne",
 		"password" : "$2y$10$Hu5bmR.dwa95WuqnUzmgsOt2w0vXzGZvhvmAZZurgp1w8XA8UgsM."
+ 	},
+ 	"56345" : {
+		"firstname" : "Martin",
+		"lastname" : "Maclean",
+		"description" : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+		"username" : "mclean",
+		"password" : "$2y$10$zj4xqlitLgov5R9PJyxbn.CIWkj9wOwXHokqTNprq5gpZ1JmLQuY2"
+ 	},
+ 	"33367" : {
+		"firstname" : "Alexandre",
+		"lastname" : "Pellerin",
+		"description" : "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam.",
+		"username" : "apeller",
+		"password" : "$2y$10$LwHns08oC2BQCAKTKoq17..XlCiBbIpvR.e0ehEGW/PAvOvm5FTAS"
+ 	},
+ 	"92346" : {
+		"firstname" : "Jean-Pierre",
+		"lastname" : "Villeneuve",
+		"description" : "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+		"username" : "avilleneuve",
+		"password" : "$2y$10$Hu5bmR.dwa95WuqnUzmgsOt2w0vXzGZvhvmAZZurgp1w8XA8UgsM."
+ 	},
+ 	"45456" : {
+		"firstname" : "Gabriel",
+		"lastname" : "Rondo",
+		"description" : "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
+		"username" : "grondo",
+		"password" : "$2y$10$LwHns08oC2BQCAKTKoq17..XlCiBbIpvR.e0ehEGW/PAvOvm5FTAS"
+ 	},
+ 	"72341" : {
+		"firstname" : "Martin",
+		"lastname" : "Blanchart",
+		"description" : "Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+		"username" : "mblanchard",
+		"password" : "$2y$10$Hu5bmR.dwa95WuqnUzmgsOt2w0vXzGZvhvmAZZurgp1w8XA8UgsM."
+ 	},
+ 	"82446" : {
+		"firstname" : "Pierre-Martin",
+		"lastname" : "Lasalle",
+		"description" : "Rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam.",
+		"username" : "plasalle",
+		"password" : "$2y$10$Hu5bmR.dwa95WuqnUzmgsOt2w0vXzGZvhvmAZZurgp1w8XA8UgsM."
+ 	},
+ 	"67546" : {
+		"firstname" : "James",
+		"lastname" : "Delinno",
+		"description" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"username" : "jdelinno",
+		"password" : "$2y$10$LwHns08oC2BQCAKTKoq17..XlCiBbIpvR.e0ehEGW/PAvOvm5FTAS"
  	}
 }
