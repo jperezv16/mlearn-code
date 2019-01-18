@@ -68,6 +68,6 @@ class User
 
     public function passwordVerify($password)
     {
-        return !empty($this->password) && password_verify($password, $this->password);
+        return false;
     }
 }
